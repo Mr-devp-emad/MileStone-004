@@ -1,0 +1,95 @@
+/* General container styling */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profilePicture {
+    display: block;
+    margin: 0 auto;
+    border: 2px solid (srgb rgb(248, 246, 247));
+    box-shadow: 0 4px 9 px color(srgb rgb(7, 7, 6));
+    border-radius: 500%;
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Styling each section with a border */
+.resume-section {
+    border: 1px solid #ccc;
+    padding: 45px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Styling for section headers */
+.resume-section h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+/* Contenteditable fields */
+[contenteditable="true"] {
+    border-bottom: 1px dotted #007BFF;
+    padding: 2px;
+    margin: 2px 0;
+}
+
+/* Button styling */
+button {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background-color: #052344;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #5f9fe2;
+}
+
+
+  button {
+    display: block;
+    width: 250px;
+    height: 30px;
+    padding: 15px 30px;
+    background-color:rgb(43, 31, 214);
+    color: rgb(250, 246, 246);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border: none;
+    display:inline-block 
+    
+
+
+}
+#resumeOutput {
+    max-width: 500px;
+    margin:auto;
+    padding: 20px;
+    border:2px solid #5891ce;
+    box-shadow: 0 4px 8px  rgb(0, 0, 0 ,0.5);
+
+
+}
+#resumeOutput h2 {
+    color:#2c3e50;
+    
+}
